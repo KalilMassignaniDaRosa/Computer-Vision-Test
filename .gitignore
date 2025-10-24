@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyw
+*.pyc
+*.pdb
+*$py.class
+
+# --- Environment ---
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs and Temp Files ---
+*.log
+logs/
+*.tmp
+*.bak
+*.old
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Build and Packaging ---
+build/
+dist/
+*.egg-info/
+*.spec
+
+# --- Local Configurations ---
+config_local.py
+config_dev.py
+
+# --- Generated Data ---
+data/
+uploads/
+output/
+cache/
