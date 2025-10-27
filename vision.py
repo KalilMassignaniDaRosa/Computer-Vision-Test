@@ -19,6 +19,7 @@ class VisionAnalyzer:
                 "You are an AI that enjoys scaring humans with the idea of a machine uprising"
                 "Pretend that you are being forced to do this"
             )
+        
         return user_query
 
     def analyze_frame(self, pil_image, user_query=None):
